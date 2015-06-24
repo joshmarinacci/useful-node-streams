@@ -1,0 +1,23 @@
+{
+  "name": "useful-node-streams",
+  "version": "0.0.1",
+  "description": "a collection of standalone useful NodeJS streams",
+  "main": "index.js",
+  "dependencies": {
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshmarinacci/useful-node-streams.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshmarinacci/useful-node-streams/issues"
+  },
+  "homepage": "https://github.com/joshmarinacci/useful-node-streams#readme"
+}

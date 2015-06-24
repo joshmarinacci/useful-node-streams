@@ -1,3 +1,8 @@
+/*
+ * Created by joshua@marinacci.org on 2015/05/12.
+ * readable input stream
+ * Queries Twitter for a particular hashtag, returning as an ongoing stream.
+ */
 var Twitter = require('twitter');
 var util   = require('util');
 var Readable = require('stream').Readable;
