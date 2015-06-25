@@ -6,10 +6,8 @@
 var Twitter = require('twitter');
 var util   = require('util');
 var Readable = require('stream').Readable;
-var Writable = require('stream').Writable;
-//var LogStream = require('./LogStream');
 
-function TwitterStream(query, cfg) {
+function TwitterStream(cfg, query) {
     Readable.call(this,{objectMode:true});
     console.log("searching Twitter for",query);
 
@@ -41,4 +39,4 @@ util.inherits(TwitterStream, Readable);
 
 
 module.exports = TwitterStream;
-//new TwitterStream("#android").pipe(new LogStream());
+

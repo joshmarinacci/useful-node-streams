@@ -8,8 +8,6 @@
 var Writable = require('stream').Writable;
 var util   = require('util');
 
-//module.exports = CPUStream;
-
 function LogStream(opt) {
     if(!opt) opt = {};
     opt.objectMode = true;
