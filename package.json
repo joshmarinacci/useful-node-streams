@@ -1,6 +1,6 @@
 {
   "name": "useful-node-streams",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a collection of standalone useful NodeJS streams",
   "main": "index.js",
   "dependencies": {
